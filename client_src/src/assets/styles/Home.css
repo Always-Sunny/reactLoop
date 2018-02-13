@@ -1,27 +1,44 @@
-.row-top, .row-bot {
-  height:50%;
-}
-.col-12, .col-md-4 {
-  height: 100%;
-}
-.col-img {
+  /* @media  only screen and (min-width: 320) and (max-width: 768 - 1px) {
+    @content;
+  }
+
+  @media  only screen and (min-width: 768) and (max-width: #{1024 - 1px}) {
+    @content;
+  } */
+
+.img {
+  height: 50vh;
   background-position: center;
   background-size: cover;
 }
 
-.col-img-1 {
-  background-color: indigo;
+.img-1 {
+  background-color: yellow;
   background-image: url("../img/design.jpg");
 }
-.col-img-2 {
+@media  only screen and (min-width: 768px) {
+  .img-1 {
+    height: 100vh;
+  }
+}
+
+.img-2 {
+  background-color: indigo;
+  background-image: url("../img/indie.jpg");
+
+}
+.img-3 {
+  background-color: cyan;
+  background-image: url("../img/education.jpeg");
+
+}
+.img-4 {
   background-color: red;
+  background-image: url("../img/flower.jpg");
+
 }
-.col-img-3 {
-  background-color: orange;
-}
-.col-img-4 {
-  background-color: yellow;
-}
-.col-img-5 {
-  background-color: purple;
+.img-5 {
+  background-color: blue;
+  background-image: url("../img/about.jpg");
+
 }

@@ -6,26 +6,31 @@ class Home extends Component {
   render() {
     return (
       <div class="container-fluid">
-  <div class="row row-top align-items-start">
-    <div class="col-12 col-md-4 col-img col-img-1">
-      One of three columns
-    </div>
-    <div class="col-12 col-md-4 col-img col-img-2">
-      One of three columns
-    </div>
-    <div class="col-12 col-md-4 col-img col-img-3">
-      One of three columns
-    </div>
-  </div>
-  <div class="row row-bot align-items-center justify-content-end">
-    <div class="col-12 col-md-4 col-img col-img-4">
-      One of three columns
-    </div>
-    <div class="col-12 col-md-4 col-img col-img-5">
-      One of three columns
-    </div>
-  </div>
-</div>
+        <div class="row no-gutters">
+          <div class="col-12 col-md-4">
+            <div class="img img-1">1</div>
+          </div>
+          <div class="col-md-8">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div class="img img-2">2</div>
+              </div>
+              <div class="col-md-6">
+                <div class="img img-3">3</div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div class="img img-4">4</div>
+              </div>
+              <div class="col-md-6">
+                <div class="img img-5">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
     )
