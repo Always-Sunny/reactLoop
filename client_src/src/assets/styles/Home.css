@@ -1,0 +1,27 @@
+.row-top, .row-bot {
+  height:50%;
+}
+.col-12, .col-md-4 {
+  height: 100%;
+}
+.col-img {
+  background-position: center;
+  background-size: cover;
+}
+
+.col-img-1 {
+  background-color: indigo;
+  background-image: url("../img/design.jpg");
+}
+.col-img-2 {
+  background-color: red;
+}
+.col-img-3 {
+  background-color: orange;
+}
+.col-img-4 {
+  background-color: yellow;
+}
+.col-img-5 {
+  background-color: purple;
+}
