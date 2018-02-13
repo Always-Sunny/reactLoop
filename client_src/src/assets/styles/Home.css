@@ -1,0 +1,83 @@
+.container-home {
+}
+
+/* //////////////// */
+/* BODY COLs */
+/* //////////////// */
+
+.col-img {
+  background-position: center;
+  background-size: cover;
+}
+
+.col-img-about {
+  /* background-color: blue; */
+  background-image: url("../img/about.jpg");
+}
+
+.col-img-blog {
+  background-image: url("../img/blog.jpeg");
+}
+.col-img-design {
+  /* background-color: red; */
+  background-image: url("../img/design.jpg");
+}
+
+.col-img-education {
+  /* background-color: pink; */
+  background-image: url("../img/education.jpeg");
+}
+.col-footer {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.col-img-photos {
+  background-image: url("../img/photos.jpg");
+
+}
+
+.col-12 {
+  height: 100%;
+}
+
+/* //////////////// */
+/* BODY ROWS */
+/* //////////////// */
+
+.row {
+  height: 100%;
+}
+
+.row-about {
+  height: 50%;
+}
+
+.row-blog {
+  height: 50%;
+  /* background-color: yellow; */
+}
+
+.row-education {
+  height: 50%;
+}
+
+.row-photos {
+  height: 50%;
+  /* background-color: green; */
+}
+.row-split {
+  height: 50%;
+}
+
+
+/* //////////////// */
+/* FOOTER ROW */
+/* //////////////// */
+.footer-row {
+  height: 150px;
+}
+
+.text-footer {
+  font-family: Avenir;
+}
