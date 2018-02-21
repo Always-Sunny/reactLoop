@@ -6,44 +6,23 @@ class Header extends Component {
   render() {
     return (
 
-      <nav className="navbar navbar-fixed-top navbar-expand-md navbar-light">
-        <div className="d-flex w-100"></div>
-        <div className="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-1">1</div></Link>
+      <nav className="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav">
+        <div className="container-fluid">
+          <ul className="nav navbar-nav">
+            <li className="nav-item nav-home nav-img">
+              <Link to="/" className="nav-link link-home">OHRYAN</Link>
             </li>
+          </ul>
+          <ul className="nav navbar-nav mx-auto">
+            <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+          </ul>
+          <ul className="nav navbar-nav nav-prof nav-img">
             <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-2">2</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-3">3</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-4">4</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-5">5</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-6">6</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-7">7</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-8">8</div></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/"><div className="nav-img nav-img-9">9</div></Link>
+              <Link to="/" className="nav-link">O</Link>
             </li>
           </ul>
         </div>
-        <span className="navbar-text small text-truncate mt-1 w-100 text-right">always show</span>
       </nav>
-
-
-
 
     )
   }
