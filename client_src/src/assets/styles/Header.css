@@ -11,7 +11,6 @@ gmail */
 .main-nav {
   height: 72px;
   box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.07);
-
 }
 
 .footer-container {
@@ -23,8 +22,4 @@ gmail */
   margin-bottom: auto;
   text-align: center;
   font-family: avenir-light;
-}
-
-.bg-light {
-  background-color: white;
 }

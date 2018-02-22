@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
 
-      <nav className="navbar navbar-expand-md navbar-fixed-top navbar-light bg-light main-nav">
+      <nav className="navbar navbar-expand-md navbar-fixed-top navbar-light bg-white main-nav">
         <div className="container-fluid">
           <ul className="nav navbar-nav">
             <li className="nav-item nav-home nav-img">
