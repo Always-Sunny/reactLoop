@@ -14,7 +14,7 @@
 
 .img-1 {
   background-color: yellow;
-  background-image: url("../img/design.jpg");
+  background-image: url("../img/jpg/design.jpg");
 }
 @media  only screen and (min-width: 768px) {
   .img-1 {
@@ -24,21 +24,21 @@
 
 .img-2 {
   background-color: indigo;
-  background-image: url("../img/indie.jpg");
+  background-image: url("../img/jpg/indie.jpg");
 
 }
 .img-3 {
   background-color: cyan;
-  background-image: url("../img/education.jpeg");
+  background-image: url("../img/jpg/education.jpg");
 
 }
 .img-4 {
   background-color: red;
-  background-image: url("../img/flower.jpg");
+  background-image: url("../img/jpg/flower.jpg");
 
 }
 .img-5 {
   background-color: blue;
-  background-image: url("../img/about.jpg");
+  background-image: url("../img/jpg/about.jpg");
 
 }

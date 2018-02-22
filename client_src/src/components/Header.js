@@ -14,7 +14,9 @@ class Header extends Component {
             </li>
           </ul>
           <ul className="nav navbar-nav mx-auto">
-            <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+            <li className="nav-item"><Link to="/" className="nav-link git-link img-link"></Link></li>
+
+
           </ul>
           <ul className="nav navbar-nav nav-prof nav-img">
             <li className="nav-item">
@@ -29,3 +31,13 @@ class Header extends Component {
 }
 
 export default Header;
+
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
+// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>

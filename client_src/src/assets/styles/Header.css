@@ -13,6 +13,11 @@ gmail */
   box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.07);
 }
 
+.git-link {
+  background-image: url("../img/svg/github.svg");
+
+}
+
 .footer-container {
   height: 100px;
 }
