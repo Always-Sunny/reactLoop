@@ -29,9 +29,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-const navbarStyle = {
-  backgroundColor: "white",
-  height: "100px",
-  boxShadow: "0 0 12px 0 rgba(0, 0, 0, 0.07)",
-}

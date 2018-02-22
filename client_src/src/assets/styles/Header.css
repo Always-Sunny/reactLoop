@@ -10,8 +10,20 @@ gmail */
 
 .main-nav {
   height: 72px;
+  box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.07);
+
 }
 
 .footer-container {
   height: 100px;
+}
+
+.footer-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.bg-light {
+  background-color: white;
 }
