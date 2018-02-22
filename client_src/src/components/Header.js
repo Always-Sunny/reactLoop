@@ -10,17 +10,24 @@ class Header extends Component {
         <div className="container-fluid">
           <ul className="nav navbar-nav">
             <li className="nav-item nav-home nav-img">
-              <Link to="/" className="nav-link link-home">OHRYAN</Link>
+              <Link to="/" className="nav-link link-home"></Link>
             </li>
           </ul>
           <ul className="nav navbar-nav mx-auto">
-            <li className="nav-item"><Link to="/" className="nav-link git-link img-link"></Link></li>
-
-
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link github-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link ln-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link twitter-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link fb-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link etsy-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link medium-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link sc-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link spotify-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link skype-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link gmail-link img-link"></Link></li>
           </ul>
           <ul className="nav navbar-nav nav-prof nav-img">
             <li className="nav-item">
-              <Link to="/" className="nav-link">O</Link>
+              <Link to="/" className="nav-link"></Link>
             </li>
           </ul>
         </div>
@@ -31,13 +38,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
-// <li className="nav-item"><Link to="/" className="nav-link">SM Links</Link></li>
