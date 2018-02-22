@@ -29,7 +29,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="row no-gutters">
+        <div className="row no-gutters footer-container">
           <div className="col-12 d-flex justify-content-center">
             <div className="footer-text">Hello, please feel free to contact me via any of the social media links above.</div>
           </div>
