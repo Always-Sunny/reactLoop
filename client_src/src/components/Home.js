@@ -31,7 +31,7 @@ class Home extends Component {
         </div>
         <div className="row no-gutters footer-container">
           <div className="col-12 d-flex justify-content-center">
-            <div className="footer-text mx-auto">Hello, please feel free to contact me via any of the social media links above.</div>
+            <div className="footer-text mx-auto">Feel free to contact me via any of the social media links above =D</div>
           </div>
         </div>
       </div>
