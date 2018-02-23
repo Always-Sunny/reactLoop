@@ -8,23 +8,23 @@ class Home extends Component {
       <div className="container-fluid">
         <div className="row no-gutters">
           <div className="col-12 col-md-4">
-            <Link to="/design"><div className="img img-1"><span>Design</span></div></Link>
+            <Link to="/design"><div className="img img-1"><span className="txt">Design</span></div></Link>
           </div>
           <div className="col-md-8">
             <div className="row no-gutters">
               <div className="col-md-6">
-                <Link to="/gallery"><div className="img img-2">2</div></Link>
+                <Link to="/gallery"><div className="img img-2"><span className="txt">Photos</span></div></Link>
               </div>
               <div className="col-md-6">
-                <Link to="/education"><div className="img img-3">3</div></Link>
+                <Link to="/education"><div className="img img-3"><span className="txt">Education</span></div></Link>
               </div>
             </div>
             <div className="row no-gutters">
               <div className="col-md-6">
-                <Link to="/blog"><div className="img img-4">4</div></Link>
+                <Link to="/blog"><div className="img img-4"><span className="txt">Blog</span></div></Link>
               </div>
               <div className="col-md-6">
-                <Link to="/about"><div className="img img-5">5</div></Link>
+                <Link to="/about"><div className="img img-5"><span className="txt">About</span></div></Link>
               </div>
             </div>
           </div>
