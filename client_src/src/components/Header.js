@@ -13,16 +13,16 @@ class Header extends Component {
               <Link to="/" className="nav-link link-home"></Link>
             </li>
           </ul>
-          <ul className="nav navbar-nav mx-auto">
-            <li className="nav-item nav-sml"><Link to="/" className="nav-link github-link img-link"></Link></li>
-            <li className="nav-item nav-sml"><Link to="/" className="nav-link ln-link img-link"></Link></li>
-            <li className="nav-item nav-sml"><Link to="/" className="nav-link twitter-link img-link"></Link></li>
-            <li className="nav-item nav-sml"><Link to="/" className="nav-link fb-link img-link"></Link></li>
+          <ul className="nav navbar-nav mx-auto nav-ul">
             <li className="nav-item nav-sml"><Link to="/" className="nav-link etsy-link img-link"></Link></li>
-            <li className="nav-item nav-sml"><Link to="/" className="nav-link medium-link img-link"></Link></li>
             <li className="nav-item nav-sml"><Link to="/" className="nav-link sc-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link medium-link img-link"></Link></li>
             <li className="nav-item nav-sml"><Link to="/" className="nav-link spotify-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link twitter-link img-link"></Link></li>
             <li className="nav-item nav-sml"><Link to="/" className="nav-link skype-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link ln-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link fb-link img-link"></Link></li>
+            <li className="nav-item nav-sml"><Link to="/" className="nav-link github-link img-link"></Link></li>
             <li className="nav-item nav-sml"><Link to="/" className="nav-link gmail-link img-link"></Link></li>
           </ul>
           <ul className="nav navbar-nav nav-prof nav-img">
